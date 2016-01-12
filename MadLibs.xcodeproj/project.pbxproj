@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CEB43141C4450FE006D5887 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB43131C4450FE006D5887 /* main.m */; };
+		4CEB43171C4450FE006D5887 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB43161C4450FE006D5887 /* AppDelegate.m */; };
+		4CEB431A1C4450FE006D5887 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB43191C4450FE006D5887 /* ViewController.m */; };
+		4CEB431D1C4450FE006D5887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB431B1C4450FE006D5887 /* Main.storyboard */; };
+		4CEB431F1C4450FE006D5887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB431E1C4450FE006D5887 /* Assets.xcassets */; };
+		4CEB43221C4450FE006D5887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB43201C4450FE006D5887 /* LaunchScreen.storyboard */; };
+		4CEB432B1C445311006D5887 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB432A1C445311006D5887 /* EnterNameViewController.m */; };
+		4CEB432E1C445521006D5887 /* AdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB432D1C445521006D5887 /* AdjectiveViewController.m */; };
+		4CEB43311C44565B006D5887 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB43301C44565B006D5887 /* ResultsViewController.m */; };
+		4CEB43341C44669A006D5887 /* VerbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB43331C44669A006D5887 /* VerbViewController.m */; };
+		DB41A6151C44C8C4001D17EF /* AdverbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB41A6141C44C8C4001D17EF /* AdverbViewController.m */; };
+		DB41A6181C44CEDE001D17EF /* NounViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB41A6171C44CEDE001D17EF /* NounViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CEB430F1C4450FE006D5887 /* MadLibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadLibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEB43131C4450FE006D5887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CEB43151C4450FE006D5887 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CEB43161C4450FE006D5887 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CEB43181C4450FE006D5887 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CEB43191C4450FE006D5887 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CEB431C1C4450FE006D5887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CEB431E1C4450FE006D5887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CEB43211C4450FE006D5887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CEB43231C4450FE006D5887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CEB43291C445311006D5887 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		4CEB432A1C445311006D5887 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		4CEB432C1C445521006D5887 /* AdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjectiveViewController.h; sourceTree = "<group>"; };
+		4CEB432D1C445521006D5887 /* AdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjectiveViewController.m; sourceTree = "<group>"; };
+		4CEB432F1C44565B006D5887 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		4CEB43301C44565B006D5887 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		4CEB43321C44669A006D5887 /* VerbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerbViewController.h; sourceTree = "<group>"; };
+		4CEB43331C44669A006D5887 /* VerbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerbViewController.m; sourceTree = "<group>"; };
+		DB41A6131C44C8C4001D17EF /* AdverbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdverbViewController.h; sourceTree = "<group>"; };
+		DB41A6141C44C8C4001D17EF /* AdverbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdverbViewController.m; sourceTree = "<group>"; };
+		DB41A6161C44CEDE001D17EF /* NounViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NounViewController.h; sourceTree = "<group>"; };
+		DB41A6171C44CEDE001D17EF /* NounViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NounViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CEB430C1C4450FE006D5887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CEB43061C4450FE006D5887 = {
+			isa = PBXGroup;
+			children = (
+				4CEB43111C4450FE006D5887 /* MadLibs */,
+				4CEB43101C4450FE006D5887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CEB43101C4450FE006D5887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB430F1C4450FE006D5887 /* MadLibs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CEB43111C4450FE006D5887 /* MadLibs */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB43151C4450FE006D5887 /* AppDelegate.h */,
+				4CEB43161C4450FE006D5887 /* AppDelegate.m */,
+				4CEB43181C4450FE006D5887 /* ViewController.h */,
+				4CEB43191C4450FE006D5887 /* ViewController.m */,
+				4CEB431B1C4450FE006D5887 /* Main.storyboard */,
+				DB41A6161C44CEDE001D17EF /* NounViewController.h */,
+				DB41A6171C44CEDE001D17EF /* NounViewController.m */,
+				DB41A6131C44C8C4001D17EF /* AdverbViewController.h */,
+				DB41A6141C44C8C4001D17EF /* AdverbViewController.m */,
+				4CEB432C1C445521006D5887 /* AdjectiveViewController.h */,
+				4CEB432D1C445521006D5887 /* AdjectiveViewController.m */,
+				4CEB432F1C44565B006D5887 /* ResultsViewController.h */,
+				4CEB43301C44565B006D5887 /* ResultsViewController.m */,
+				4CEB43291C445311006D5887 /* EnterNameViewController.h */,
+				4CEB432A1C445311006D5887 /* EnterNameViewController.m */,
+				4CEB43321C44669A006D5887 /* VerbViewController.h */,
+				4CEB43331C44669A006D5887 /* VerbViewController.m */,
+				4CEB431E1C4450FE006D5887 /* Assets.xcassets */,
+				4CEB43201C4450FE006D5887 /* LaunchScreen.storyboard */,
+				4CEB43231C4450FE006D5887 /* Info.plist */,
+				4CEB43121C4450FE006D5887 /* Supporting Files */,
+			);
+			path = MadLibs;
+			sourceTree = "<group>";
+		};
+		4CEB43121C4450FE006D5887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CEB43131C4450FE006D5887 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CEB430E1C4450FE006D5887 /* MadLibs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CEB43261C4450FE006D5887 /* Build configuration list for PBXNativeTarget "MadLibs" */;
+			buildPhases = (
+				4CEB430B1C4450FE006D5887 /* Sources */,
+				4CEB430C1C4450FE006D5887 /* Frameworks */,
+				4CEB430D1C4450FE006D5887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadLibs;
+			productName = MadLibs;
+			productReference = 4CEB430F1C4450FE006D5887 /* MadLibs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CEB43071C4450FE006D5887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BergerBytes;
+				TargetAttributes = {
+					4CEB430E1C4450FE006D5887 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 4CEB430A1C4450FE006D5887 /* Build configuration list for PBXProject "MadLibs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CEB43061C4450FE006D5887;
+			productRefGroup = 4CEB43101C4450FE006D5887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CEB430E1C4450FE006D5887 /* MadLibs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CEB430D1C4450FE006D5887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEB43221C4450FE006D5887 /* LaunchScreen.storyboard in Resources */,
+				4CEB431F1C4450FE006D5887 /* Assets.xcassets in Resources */,
+				4CEB431D1C4450FE006D5887 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CEB430B1C4450FE006D5887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEB431A1C4450FE006D5887 /* ViewController.m in Sources */,
+				4CEB43171C4450FE006D5887 /* AppDelegate.m in Sources */,
+				4CEB432E1C445521006D5887 /* AdjectiveViewController.m in Sources */,
+				4CEB43311C44565B006D5887 /* ResultsViewController.m in Sources */,
+				DB41A6181C44CEDE001D17EF /* NounViewController.m in Sources */,
+				DB41A6151C44C8C4001D17EF /* AdverbViewController.m in Sources */,
+				4CEB432B1C445311006D5887 /* EnterNameViewController.m in Sources */,
+				4CEB43141C4450FE006D5887 /* main.m in Sources */,
+				4CEB43341C44669A006D5887 /* VerbViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CEB431B1C4450FE006D5887 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CEB431C1C4450FE006D5887 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CEB43201C4450FE006D5887 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CEB43211C4450FE006D5887 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CEB43241C4450FE006D5887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CEB43251C4450FE006D5887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CEB43271C4450FE006D5887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MadLibs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BergerBytes.MadLibs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CEB43281C4450FE006D5887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MadLibs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BergerBytes.MadLibs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CEB430A1C4450FE006D5887 /* Build configuration list for PBXProject "MadLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CEB43241C4450FE006D5887 /* Debug */,
+				4CEB43251C4450FE006D5887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CEB43261C4450FE006D5887 /* Build configuration list for PBXNativeTarget "MadLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CEB43271C4450FE006D5887 /* Debug */,
+				4CEB43281C4450FE006D5887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CEB43071C4450FE006D5887 /* Project object */;
+}
