@@ -30,7 +30,7 @@
     
     //UIColor *answerColor = [UIColor blueColor];
     UIFont *fontText = [UIFont boldSystemFontOfSize:15];
-    NSDictionary *dictBoldText = [NSDictionary dictionaryWithObjectsAndKeys:fontText, NSFontAttributeName, nil];
+    //NSDictionary *dictBoldText = [NSDictionary dictionaryWithObjectsAndKeys:fontText, NSFontAttributeName, nil];
 
     
     NSRange nameRange =      [resultsString.string rangeOfString:self.name];
@@ -47,11 +47,11 @@
 //    [resultsString addAttribute:NSForegroundColorAttributeName value:answerColor range:adverbRange];
 //    [resultsString addAttribute:NSForegroundColorAttributeName value:answerColor range:nounRange];
     
-    [resultsString setAttributes:dictBoldText range:nameRange];
-    [resultsString setAttributes:dictBoldText range:adjectiveRange];
-    [resultsString setAttributes:dictBoldText range:verbRange];
-    [resultsString setAttributes:dictBoldText range:adverbRange];
-    [resultsString setAttributes:dictBoldText range:nounRange];
+    [resultsString addAttribute:NSFontAttributeName value:fontText  range:nameRange];
+    [resultsString addAttribute:NSFontAttributeName value:fontText  range:adjectiveRange];
+    [resultsString addAttribute:NSFontAttributeName value:fontText  range:verbRange];
+    [resultsString addAttribute:NSFontAttributeName value:fontText  range:adverbRange];
+    [resultsString addAttribute:NSFontAttributeName value:fontText  range:nounRange];
 
     
     self.resultsTextField.attributedText = resultsString;
